@@ -326,7 +326,8 @@ main {
       padding: 4rem;
       border-radius: 2rem; }
       main #main-content form p {
-        width: 100%; }
+        width: 100%;
+      font-size: 1.3rem; }
         main #main-content form p.tchat {
           background-color: #ebba4b;
           padding: 2rem 1.5rem;
@@ -385,6 +386,16 @@ main {
       border-radius: 2rem; }
       main #main-content .white h2 {
         margin-top: 0; }
+      main #main-content .white iframe {
+        width: 100%;
+      }
+      .pourliseuse {
+        position: absolute;
+        left: 0;
+        top: -10000px;
+        overflow: hidden;
+        color: transparent!important;
+      }
   main #ressources {
     position: absolute;
     top: 1rem;
