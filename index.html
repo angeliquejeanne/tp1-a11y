@@ -1,86 +1,104 @@
 <!DOCTYPE html>
 <html lang="fr">
     <head>
-        <title>TP n°1 - Formation développement accessible | urbilog</title>
-        <link rel="stylesheet" href="assets/css/main.min.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta charset="UTF-8">
+        <title>TP n°1 - Formation développement accessible | urbilog</title>
+        <link rel="stylesheet" href="assets/css/main.min.css">
     </head>
     <body>
         <div class="container tp">
+
           <header id="header" role="banner">
             <h1>
               <span class="uppercase br lighter">TP n°1</span>
               <span class="uppercase bold br red">images, cadres et couleurs</span>
             </h1>
           </header>
+
           <main role="main">
             <section id="main-content">
               <h2 id="t1" class="n2">Les actualités du jour chez Urbilog & Compéthance</h2>
+
               <ul class="posts">
                 <li>
-                  <div class="container-image">
-                    <img src="assets/images/trump&kim.png">
-                    <p class="figcaption">Une poignée de main historique entre Donald et Kim, le 12 juin 2018, Saul Loeb, AFP</p>
-                  </div>
-                  <div class="container-content">
+                  <figure class="container-image">
+                    <img src="assets/images/trump&kim.png" alt="">
+                    <figcaption class="figcaption">Une poignée de main historique entre Donald et Kim, le 12 juin 2018, Saul Loeb, AFP</figcaption>
+                  </figure>
+
+                  <article class="container-content">
                     <h3>Une poignée de main Historique</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                     <a href="#" class="link">En savoir plus</a>
-                  </div>
+                  </article>
                 </li>
+
                 <li>
                   <div class="container-image">
-                    <img src="assets/images/artistesDeRue.png">
+                    <img src="assets/images/artistesDeRue.png" alt="">
                   </div>
-                  <div class="container-content">
+                  <article class="container-content">
                     <h3>Les nouveaux artistes de rue</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                     <a href="#" class="link">En savoir plus</a>
-                  </div>
+                  </article>
                 </li>
               </ul>
+
               <form>
-                <h2 id="t1" class="n2">Inscrivez-vous dès maintenant à notre super newsletter</h2>
+                <h2 id="t2" class="n2">Inscrivez-vous dès maintenant à notre super newsletter</h2>
                 <p class="tchat">Chattez avec nous, en direct, en cliquant sur l'enveloppe
                   <a href="mailto:contact@urbilog.fr">
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="15" viewBox="0 0 20 15"><g><g><path fill="#fff" d="M17.166 3.929L9.8 8.839 2.435 3.93V2.143L9.8 7.053l7.366-4.91zM17.39.134H2.211A1.79 1.79 0 0 0 .426 1.92v11.16a1.79 1.79 0 0 0 1.785 1.786H17.39a1.79 1.79 0 0 0 1.786-1.786V1.92A1.79 1.79 0 0 0 17.389.134z"/></g></g></svg>
                   </a>
                 </p>
+
                 <p>Les champs en rouge sont obligatoires</p>
+
                 <div class="container-input">
                   <label for="fname">Prénom</label>
                   <input type="text" name="fname" id="fname" placeholder="Exemple: John"/>
                 </div>
+
                 <div class="container-input">
                   <label for="name">Nom</label>
                   <input type="text" name="name" id="name" placeholder="Exemple: Doe"/>
                 </div>
+                
                 <div class="container-input">
                   <label for="tel">Téléphone</label>
                   <input type="text" name="tel" id="tel" placeholder="Exemple: 03 28 55 21 30"/>
                 </div>
+
                 <div class="container-input">
                   <label for="tel">Email</label>
                   <input type="email" name="email" id="email" placeholder="Exemple: contact@urbilog.fr"/>
                 </div>
+
                 <div class="container-input">
-                  <label for="captcha">Que lisez-vous ci-dessous ?</label>
-                  <img src="assets/images/captcha.png" />
+                  <label>Que lisez-vous ci-dessous ?</label>
+                  <img src="assets/images/captcha.png" alt="" />
                 </div>
+
                 <div class="container-input">
                   <label for="rep">Réponse au captcha</label>
                   <input type="text" name="rep" id="rep" placeholder="Exemple: Y59ZTU"/>
                 </div>
+
                 <button type="submit">Inscription à la newsletter</button>
+
               </form>
-              <div class="white">
+
+              <section class="white">
                 <h2 class="n2">Nous rendre visite</h2>
-                <iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=31%20rue%20Denis%20Papin,%20Villeneuve%20d'ascq+(Urbilog)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
-              </div>
+                <iframe width="100" height="600" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=31%20rue%20Denis%20Papin,%20Villeneuve%20d'ascq+(Urbilog)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+              </section>
+
             </section>
           </main>
+
         </div>
-        <script type="text/javascript" src="assets/js/main.js"></script>
+        <script src="assets/js/main.js"></script>
     </body>
 </html>
