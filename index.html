@@ -22,8 +22,8 @@
 
               <ul class="posts">
                 <li>
-                  <figure class="container-image">
-                    <img src="assets/images/trump&kim.png" alt="">
+                  <figure class="container-image"  role="group" aria-label="Une poignée de main historique entre Donald et Kim, le 12 juin 2018, Saul Loeb, AFP">
+                    <img src="assets/images/trump&kim.png" alt="Donald Trump & Kim">
                     <figcaption class="figcaption">Une poignée de main historique entre Donald et Kim, le 12 juin 2018, Saul Loeb, AFP</figcaption>
                   </figure>
 
@@ -48,12 +48,15 @@
 
               <form>
                 <h2 id="t2" class="n2">Inscrivez-vous dès maintenant à notre super newsletter</h2>
-                <p class="tchat">Chattez avec nous, en direct, en cliquant sur l'enveloppe
-                  <a href="mailto:contact@urbilog.fr">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="15" viewBox="0 0 20 15"><g><g><path fill="#fff" d="M17.166 3.929L9.8 8.839 2.435 3.93V2.143L9.8 7.053l7.366-4.91zM17.39.134H2.211A1.79 1.79 0 0 0 .426 1.92v11.16a1.79 1.79 0 0 0 1.785 1.786H17.39a1.79 1.79 0 0 0 1.786-1.786V1.92A1.79 1.79 0 0 0 17.389.134z"/></g></g></svg>
-                  </a>
-                </p>
-
+                <a href="mailto:contact@urbilog.fr">
+                  <p class="tchat">Chattez avec nous, en direct, en cliquant sur l'enveloppe
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="15" viewBox="0 0 20 15">
+                      <g><g>
+                        <path fill="#fff" d="M17.166 3.929L9.8 8.839 2.435 3.93V2.143L9.8 7.053l7.366-4.91zM17.39.134H2.211A1.79 1.79 0 0 0 .426 1.92v11.16a1.79 1.79 0 0 0 1.785 1.786H17.39a1.79 1.79 0 0 0 1.786-1.786V1.92A1.79 1.79 0 0 0 17.389.134z"/>
+                      </g></g>
+                    </svg>
+                  </p>
+                </a>
                 <p>Les champs en rouge sont obligatoires</p>
 
                 <div class="container-input">
@@ -72,7 +75,7 @@
                 </div>
 
                 <div class="container-input">
-                  <label for="tel">Email</label>
+                  <label for="email">Email</label>
                   <input type="email" name="email" id="email" placeholder="Exemple: contact@urbilog.fr"/>
                 </div>
 
@@ -92,7 +95,11 @@
 
               <section class="white">
                 <h2 class="n2">Nous rendre visite</h2>
-                <iframe width="100" height="600" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=31%20rue%20Denis%20Papin,%20Villeneuve%20d'ascq+(Urbilog)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+                <iframe aria-hidden="true" width="100%" height="600" 
+                src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=31%20rue%20Denis%20Papin,%20Villeneuve%20d'ascq+(Urbilog)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+                <span class="pourliseuse">
+                  31 rue Denis Papin, 59650 Villeneuve-D'Ascq
+                </span>
               </section>
 
             </section>
